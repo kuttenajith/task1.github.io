@@ -143,55 +143,55 @@ var emp = [{
 }
 ];
 
-// var emp2 =  emp.filter(function(findlocation) {
-//     return findlocation.location == "svg";
+var emp2 =  emp.filter(function(findlocation) {
+    return findlocation.location == "svg";
 
-// });
-// console.log(emp2);
+});
+console.log(emp2);
  
 
-// var emp2 =  emp.filter(function(findstatus) {
-//     return findstatus.MS == "yes";
+var emp2 =  emp.filter(function(findstatus) {
+    return findstatus.MS == "yes";
 
-// });
-// console.log(emp2);
-
-
-// var emp3 = emp.filter(function(findvehicle){
-//     return findvehicle.vehicle == "fz";
-//    });
-// console.log(emp3);
-
-// var emp4=emp.filter(function(findposition){
-// return findposition.position=="Projmanager" 
-// });
-// console.log(emp4);
-
-//  var emp4=emp.filter(function(findposition){
-//  return findposition.position=="Teamlead" 
-//  });
-//  console.log(emp4);
+});
+console.log(emp2);
 
 
-// var emp4=emp.filter(function(findposition){
-//     return findposition.position=="Developer" 
-//     });
-//     console.log(emp4);
+var emp3 = emp.filter(function(findvehicle){
+    return findvehicle.vehicle == "fz";
+   });
+console.log(emp3);
+
+var emp4=emp.filter(function(findposition){
+return findposition.position=="Projmanager" 
+});
+console.log(emp4);
+
+ var emp4=emp.filter(function(findposition){
+ return findposition.position=="Teamlead" 
+ });
+ console.log(emp4);
+
+
+var emp4=emp.filter(function(findposition){
+    return findposition.position=="Developer" 
+    });
+    console.log(emp4);
    
-// var emp5=emp.filter(function(findmatching){
-//         return findmatching.name=="bala" 
-//         });
-//         console.log(emp5);
+var emp5=emp.filter(function(findmatching){
+        return findmatching.name=="bala" 
+        });
+        console.log(emp5);
        
 
-// var i;
-// var d=emp.sort(function(a, b){
-// for(i=0;i<=emp.length;i++){
-// var nameA=new Name(a.name), nameB=new Name(b.name);
-// if(nameA==nameB)
-// })
-// console.log(d);
-// }
+var i;
+var d=emp.sort(function(a, b){
+for(i=0;i<=emp.length;i++){
+var nameA=new Name(a.name), nameB=new Name(b.name);
+if(nameA==nameB)
+})
+console.log(d);
+}
 
 var emp3 = emp.filter(function(findvehicle){
     return findvehicle.vehicle == "";
